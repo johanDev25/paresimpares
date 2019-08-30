@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pares e Impares</title>
+</head>
+<body>
+	<h1>Hola</h1>
+   <% 50.times do |i|%>
+   <% if i == 0 %>
+    <h3></h3>
+   <% elsif i.even? %>
+   	<h3><%= i %> Soy Par!</h3>
+   	<% else %>
+   	<h3><%= i %> Soy Impar!</h3>
+   <% end %>
+  <% end %>
+</body>
+</html>
